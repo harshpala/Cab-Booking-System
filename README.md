@@ -2,7 +2,9 @@
 
 ## Goal
 
-Design an **Uber-like system** that supports both **Rider Flow** and **Driver Flow** with realistic behaviors such as OTP verification, surge pricing, and cab assignment. The system should be:
+Designed an **Uber-like system** that supports both **Rider Flow** and **Driver Flow** with realistic behaviors such as OTP verification, surge pricing, and cab assignment. 
+
+### Key Design Highlights:
 
 - Extensible
 - Object-oriented
