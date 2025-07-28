@@ -22,7 +22,7 @@ public:
 
     vector<VehicleFareEstimate> showAvailableVehicleTypes(const Location& from, const Location& to) {
         vector<VehicleFareEstimate> estimates;
-        vector<VehicleType> allTypes = {VehicleType::HATCHBACK, VehicleType::SEDAN, VehicleType::SUV};
+        vector<VehicleType> allTypes = {HATCHBACK, SEDAN, SUV};
         for (VehicleType type : allTypes) {
             double fare = pricingStrategy.calculateFare(from, to, type);
             estimates.emplace_back(type, round(fare * 100.0) / 100.0);
