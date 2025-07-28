@@ -10,7 +10,7 @@ public:
             case HATCHBACK: baseRatePerKm = 8.0; break;
             case SEDAN:     baseRatePerKm = 10.0; break;
             case SUV:       baseRatePerKm = 12.5; break;
-            default:                     baseRatePerKm = 10.0; break;
+            default:        baseRatePerKm = 10.0; break;
         }
         double distance = from.distanceTo(to);
         return baseRatePerKm * distance;
